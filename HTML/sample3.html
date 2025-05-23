@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="HTML5, HTML 5, Semantics">
+  <title>CSS Boxed Model Example</title>
+  <!--filename:CSSBoxProperties.html-->
+  <style>
+      body{
+        font-family: Arail, sans-serif;
+        text-align: center;
+        background-color: white;
+        margin: 20px;
+
+        }
+		
+        .box{
+          width: 300px;
+          height: 200px;
+          background-color: #29A7D9;
+          color: White;
+          padding: 30px;
+          border: 5px solid #0A5DA6;
+          margin: 20px auto;
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+          }
+
+      .box:hover{
+        background-color: #027333;
+        color: black;
+        transform: scale(1.1);
+        box-shadow: 8px 8px 15px rgba(0, 0, 0, 3);
+        border-color: #F2E527;
+        transition: 1s;
+        }
+    </style>
+	
+  </head>
+  </body>
+    <h2>CSS Box Model Example</h2>  
+    <div class="box">
+      <p>This is a box.</p>
+    </div>
+  </body>
+  </html>
+
